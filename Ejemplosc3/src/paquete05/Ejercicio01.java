@@ -29,6 +29,8 @@ public class Ejercicio01 {
 
 		suma = suma + produccion[fila];
             }
+
+		mensaje = String.format("%s%s Estacion 1 - Total Produccion: $%.d",mensaje, estacionesTrabajo[fila],suma)
         }
     }
 }
