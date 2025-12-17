@@ -23,9 +23,9 @@ public class Ejercicio01 {
             suma = 0;
             System.out.printf("Ingrese el nombre de la estacion");
             estacionesTrabajo[fila] = entrada.nextLine();
-            for (int col = 0; col < estacionesTrabajo.length; col++){
+            for (int col = 0; col < produccion.length; col++){
                 System.out.printf("Ingrese la produccion del mes");
-                produccion[fila] = entrada.nextInt();
+                produccion[col] = entrada.nextInt();
 
 		suma = suma + produccion[fila];
             }
